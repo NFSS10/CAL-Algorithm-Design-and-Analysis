@@ -1,0 +1,237 @@
+\hypertarget{class_city}{}\section{City Class Reference}
+\label{class_city}\index{City@{City}}
+
+
+The \hyperlink{class_city}{City} class has all the database that we want to interact.  
+
+
+
+
+{\ttfamily \#include $<$City.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_city_a48a5b743f0e420f4a207d24eb79673e3}{City} (std\+::string name, \hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$map, \hyperlink{class_company}{Company} $\ast$company)
+\begin{DoxyCompactList}\small\item\em Constructor of a \hyperlink{class_city}{City} class. \end{DoxyCompactList}\item 
+\hyperlink{class_city_a1b1f549430f0a7ecd0ec7b1605415193}{City} ()\hypertarget{class_city_a1b1f549430f0a7ecd0ec7b1605415193}{}\label{class_city_a1b1f549430f0a7ecd0ec7b1605415193}
+
+\begin{DoxyCompactList}\small\item\em Default constructor of a \hyperlink{class_city}{City} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_city_a1b0da34ae1fa07bd3223e1917f5311fd}{set\+Name} (std\+::string name)
+\begin{DoxyCompactList}\small\item\em Changes the name of the city. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_city_adc7fe5313b3572973918cf6385e87fd5}{get\+Name} ()
+\begin{DoxyCompactList}\small\item\em Gets the name of the city. \end{DoxyCompactList}\item 
+\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$ \hyperlink{class_city_a8f3f47c5bd299d98a3265f824472b86d}{get\+Map} ()
+\begin{DoxyCompactList}\small\item\em Gets the map of the city. \end{DoxyCompactList}\item 
+void \hyperlink{class_city_aa894bfe97bd2385ee6ebc300fe0a2b4d}{set\+Map} (\hyperlink{class_graph}{Graph}$<$ int $>$ $\ast$map)
+\begin{DoxyCompactList}\small\item\em Changes the map of the city. \end{DoxyCompactList}\item 
+\hyperlink{class_company}{Company} $\ast$ \hyperlink{class_city_a9f98c84945631205f016710d7e2a4920}{get\+Company} ()
+\begin{DoxyCompactList}\small\item\em Gets the company responsible for the delivery of items. \end{DoxyCompactList}\item 
+void \hyperlink{class_city_a18e4679f6b4f29f4224ad2a00878b518}{set\+Company} (\hyperlink{class_company}{Company} $\ast$company)
+\begin{DoxyCompactList}\small\item\em Changes the company responsible for the delivery of items of the city. \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{class_city_af2fabccb1a1b135d164a3a13836e0ccb}{shortest\+Path} (\hyperlink{class_truck}{Truck} $\ast$truck)
+\begin{DoxyCompactList}\small\item\em Gets the shortest way to deliver the items. \end{DoxyCompactList}\item 
+bool \hyperlink{class_city_a24e2ceefe35f961c524fd51b428c70d3}{there\+Is\+Path} (vector$<$ int $>$ v)
+\begin{DoxyCompactList}\small\item\em Verify if all items of repository are in the vector passed by argument. \end{DoxyCompactList}\item 
+bool \hyperlink{class_city_a95f86fe4bccb62fc3ed0095cb892eefd}{check\+Connection} ()
+\begin{DoxyCompactList}\small\item\em Check the connection between depository and all items destination and garage. \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{class_item}{Item} $\ast$ $>$ \hyperlink{class_city_a25489da1c7fd338f81bdfadaed8b98af}{items\+In\+Path\+DG} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_city}{City} class has all the database that we want to interact. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{City@{City}!City@{City}}
+\index{City@{City}!City@{City}}
+\subsubsection[{\texorpdfstring{City(std\+::string name, Graph$<$ int $>$ $\ast$map, Company $\ast$company)}{City(std::string name, Graph< int > *map, Company *company)}}]{\setlength{\rightskip}{0pt plus 5cm}City\+::\+City (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{name, }
+\item[{{\bf Graph}$<$ int $>$ $\ast$}]{map, }
+\item[{{\bf Company} $\ast$}]{company}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_a48a5b743f0e420f4a207d24eb79673e3}{}\label{class_city_a48a5b743f0e420f4a207d24eb79673e3}
+
+
+Constructor of a \hyperlink{class_city}{City} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the name of the city \\
+\hline
+{\em map} & the graph map of the city \\
+\hline
+{\em company} & An \hyperlink{class_company}{Company} that will have the trucks to distribute the itens \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{City@{City}!check\+Connection@{check\+Connection}}
+\index{check\+Connection@{check\+Connection}!City@{City}}
+\subsubsection[{\texorpdfstring{check\+Connection()}{checkConnection()}}]{\setlength{\rightskip}{0pt plus 5cm}bool City\+::check\+Connection (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_a95f86fe4bccb62fc3ed0095cb892eefd}{}\label{class_city_a95f86fe4bccb62fc3ed0095cb892eefd}
+
+
+Check the connection between depository and all items destination and garage. 
+
+\begin{DoxyReturn}{Returns}
+A boolean that assumes true as value if there is connection 
+\end{DoxyReturn}
+\index{City@{City}!get\+Company@{get\+Company}}
+\index{get\+Company@{get\+Company}!City@{City}}
+\subsubsection[{\texorpdfstring{get\+Company()}{getCompany()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Company} $\ast$ City\+::get\+Company (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_a9f98c84945631205f016710d7e2a4920}{}\label{class_city_a9f98c84945631205f016710d7e2a4920}
+
+
+Gets the company responsible for the delivery of items. 
+
+\begin{DoxyReturn}{Returns}
+The object \hyperlink{class_company}{Company} of the city 
+\end{DoxyReturn}
+\index{City@{City}!get\+Map@{get\+Map}}
+\index{get\+Map@{get\+Map}!City@{City}}
+\subsubsection[{\texorpdfstring{get\+Map()}{getMap()}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Graph}$<$ int $>$ $\ast$ City\+::get\+Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_a8f3f47c5bd299d98a3265f824472b86d}{}\label{class_city_a8f3f47c5bd299d98a3265f824472b86d}
+
+
+Gets the map of the city. 
+
+\begin{DoxyReturn}{Returns}
+A graph that have all the vertex\textquotesingle{}s and edge\textquotesingle{}s of the city 
+\end{DoxyReturn}
+\index{City@{City}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!City@{City}}
+\subsubsection[{\texorpdfstring{get\+Name()}{getName()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string City\+::get\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_adc7fe5313b3572973918cf6385e87fd5}{}\label{class_city_adc7fe5313b3572973918cf6385e87fd5}
+
+
+Gets the name of the city. 
+
+\begin{DoxyReturn}{Returns}
+A string with the name of the city 
+\end{DoxyReturn}
+\index{City@{City}!items\+In\+Path\+DG@{items\+In\+Path\+DG}}
+\index{items\+In\+Path\+DG@{items\+In\+Path\+DG}!City@{City}}
+\subsubsection[{\texorpdfstring{items\+In\+Path\+D\+G()}{itemsInPathDG()}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ {\bf Item} $\ast$ $>$ City\+::items\+In\+Path\+DG (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_a25489da1c7fd338f81bdfadaed8b98af}{}\label{class_city_a25489da1c7fd338f81bdfadaed8b98af}
+Function used to get all the items between Deposit and Garage \begin{DoxyReturn}{Returns}
+A vector with those items between shortest path 
+\end{DoxyReturn}
+\index{City@{City}!set\+Company@{set\+Company}}
+\index{set\+Company@{set\+Company}!City@{City}}
+\subsubsection[{\texorpdfstring{set\+Company(\+Company $\ast$company)}{setCompany(Company *company)}}]{\setlength{\rightskip}{0pt plus 5cm}void City\+::set\+Company (
+\begin{DoxyParamCaption}
+\item[{{\bf Company} $\ast$}]{company}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_a18e4679f6b4f29f4224ad2a00878b518}{}\label{class_city_a18e4679f6b4f29f4224ad2a00878b518}
+
+
+Changes the company responsible for the delivery of items of the city. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em company} & the new company that will delivery the items of the city \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{City@{City}!set\+Map@{set\+Map}}
+\index{set\+Map@{set\+Map}!City@{City}}
+\subsubsection[{\texorpdfstring{set\+Map(\+Graph$<$ int $>$ $\ast$map)}{setMap(Graph< int > *map)}}]{\setlength{\rightskip}{0pt plus 5cm}void City\+::set\+Map (
+\begin{DoxyParamCaption}
+\item[{{\bf Graph}$<$ int $>$ $\ast$}]{map}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_aa894bfe97bd2385ee6ebc300fe0a2b4d}{}\label{class_city_aa894bfe97bd2385ee6ebc300fe0a2b4d}
+
+
+Changes the map of the city. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & a graph of the new map of the city \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{City@{City}!set\+Name@{set\+Name}}
+\index{set\+Name@{set\+Name}!City@{City}}
+\subsubsection[{\texorpdfstring{set\+Name(std\+::string name)}{setName(std::string name)}}]{\setlength{\rightskip}{0pt plus 5cm}void City\+::set\+Name (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{name}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_a1b0da34ae1fa07bd3223e1917f5311fd}{}\label{class_city_a1b0da34ae1fa07bd3223e1917f5311fd}
+
+
+Changes the name of the city. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & a string of the new name of the city \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{City@{City}!shortest\+Path@{shortest\+Path}}
+\index{shortest\+Path@{shortest\+Path}!City@{City}}
+\subsubsection[{\texorpdfstring{shortest\+Path(\+Truck $\ast$truck)}{shortestPath(Truck *truck)}}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ int $>$ City\+::shortest\+Path (
+\begin{DoxyParamCaption}
+\item[{{\bf Truck} $\ast$}]{truck}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_af2fabccb1a1b135d164a3a13836e0ccb}{}\label{class_city_af2fabccb1a1b135d164a3a13836e0ccb}
+
+
+Gets the shortest way to deliver the items. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em truck} & the truck that will deliver the items \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A vector with the ids of the vertex of the best way to deliver the items 
+\end{DoxyReturn}
+\index{City@{City}!there\+Is\+Path@{there\+Is\+Path}}
+\index{there\+Is\+Path@{there\+Is\+Path}!City@{City}}
+\subsubsection[{\texorpdfstring{there\+Is\+Path(vector$<$ int $>$ v)}{thereIsPath(vector< int > v)}}]{\setlength{\rightskip}{0pt plus 5cm}bool City\+::there\+Is\+Path (
+\begin{DoxyParamCaption}
+\item[{vector$<$ int $>$}]{v}
+\end{DoxyParamCaption}
+)}\hypertarget{class_city_a24e2ceefe35f961c524fd51b428c70d3}{}\label{class_city_a24e2ceefe35f961c524fd51b428c70d3}
+
+
+Verify if all items of repository are in the vector passed by argument. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em v} & Vector with vertex identifiers \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A boolean that assumes true value if vector contains all items identifiers otherwise return false 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/\hyperlink{_city_8h}{City.\+h}\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/City.\+cpp\end{DoxyCompactItemize}

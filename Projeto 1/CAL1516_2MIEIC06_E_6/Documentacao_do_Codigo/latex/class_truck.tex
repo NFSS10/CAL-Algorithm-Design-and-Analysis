@@ -1,0 +1,153 @@
+\hypertarget{class_truck}{}\section{Truck Class Reference}
+\label{class_truck}\index{Truck@{Truck}}
+
+
+The \hyperlink{class_truck}{Truck} class has all a truck\+\_\+load, a stowage and all the items to be delivered.  
+
+
+
+
+{\ttfamily \#include $<$Truck.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_truck_a38fedf8b733279a975f945aa998b8542}{Truck} (double truck\+\_\+load)
+\begin{DoxyCompactList}\small\item\em Constructor of a \hyperlink{class_truck}{Truck} class. \end{DoxyCompactList}\item 
+double \hyperlink{class_truck_aef937769001a3468fc41ebb9df7e4871}{get\+Truck\+Load} () const 
+\begin{DoxyCompactList}\small\item\em Gets the maximum volume that the truck supports. \end{DoxyCompactList}\item 
+double \hyperlink{class_truck_a8e5df7632c01c338356682a6ea6536c0}{get\+Stowage} () const 
+\begin{DoxyCompactList}\small\item\em Gets the volume occupied by the items. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{class_item}{Item} $\ast$ $>$ \hyperlink{class_truck_ac8a4138c1c38d0eebfba9c9a58df7341}{get\+Items\+To\+Distribute} () const 
+\begin{DoxyCompactList}\small\item\em Gets the items that the truck needs to deliver. \end{DoxyCompactList}\item 
+bool \hyperlink{class_truck_a894390c8eab2a56f7c90ffd7016fa17d}{add\+Item} (\hyperlink{class_item}{Item} $\ast$di)
+\begin{DoxyCompactList}\small\item\em Adds a item to the truck. \end{DoxyCompactList}\item 
+void \hyperlink{class_truck_abdb9bfa6b9601f13a46df7f09c16c17a}{delivery\+Items} ()
+\begin{DoxyCompactList}\small\item\em Deletes the item in the vector and decreases the stowage. \end{DoxyCompactList}\item 
+bool \hyperlink{class_truck_aed1f791c3c1520ec8b1c921038cf5459}{operator==} (const \hyperlink{class_truck}{Truck} $\ast$t1)
+\begin{DoxyCompactList}\small\item\em To check if a truck is equal to another truck. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_truck}{Truck} class has all a truck\+\_\+load, a stowage and all the items to be delivered. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Truck@{Truck}!Truck@{Truck}}
+\index{Truck@{Truck}!Truck@{Truck}}
+\subsubsection[{\texorpdfstring{Truck(double truck\+\_\+load)}{Truck(double truck_load)}}]{\setlength{\rightskip}{0pt plus 5cm}Truck\+::\+Truck (
+\begin{DoxyParamCaption}
+\item[{double}]{truck\+\_\+load}
+\end{DoxyParamCaption}
+)}\hypertarget{class_truck_a38fedf8b733279a975f945aa998b8542}{}\label{class_truck_a38fedf8b733279a975f945aa998b8542}
+
+
+Constructor of a \hyperlink{class_truck}{Truck} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em truck\+\_\+load} & The maximum volume that the truck supports \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Truck@{Truck}!add\+Item@{add\+Item}}
+\index{add\+Item@{add\+Item}!Truck@{Truck}}
+\subsubsection[{\texorpdfstring{add\+Item(\+Item $\ast$di)}{addItem(Item *di)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Truck\+::add\+Item (
+\begin{DoxyParamCaption}
+\item[{{\bf Item} $\ast$}]{di}
+\end{DoxyParamCaption}
+)}\hypertarget{class_truck_a894390c8eab2a56f7c90ffd7016fa17d}{}\label{class_truck_a894390c8eab2a56f7c90ffd7016fa17d}
+
+
+Adds a item to the truck. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em di} & The item to be delivered by the truck \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the item was added to the truck, false otherwise 
+\end{DoxyReturn}
+\index{Truck@{Truck}!delivery\+Items@{delivery\+Items}}
+\index{delivery\+Items@{delivery\+Items}!Truck@{Truck}}
+\subsubsection[{\texorpdfstring{delivery\+Items()}{deliveryItems()}}]{\setlength{\rightskip}{0pt plus 5cm}void Truck\+::delivery\+Items (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_truck_abdb9bfa6b9601f13a46df7f09c16c17a}{}\label{class_truck_abdb9bfa6b9601f13a46df7f09c16c17a}
+
+
+Deletes the item in the vector and decreases the stowage. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Truck@{Truck}!get\+Items\+To\+Distribute@{get\+Items\+To\+Distribute}}
+\index{get\+Items\+To\+Distribute@{get\+Items\+To\+Distribute}!Truck@{Truck}}
+\subsubsection[{\texorpdfstring{get\+Items\+To\+Distribute() const }{getItemsToDistribute() const }}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ {\bf Item} $\ast$ $>$ Truck\+::get\+Items\+To\+Distribute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_truck_ac8a4138c1c38d0eebfba9c9a58df7341}{}\label{class_truck_ac8a4138c1c38d0eebfba9c9a58df7341}
+
+
+Gets the items that the truck needs to deliver. 
+
+\begin{DoxyReturn}{Returns}
+A vector with the items to be delivered 
+\end{DoxyReturn}
+\index{Truck@{Truck}!get\+Stowage@{get\+Stowage}}
+\index{get\+Stowage@{get\+Stowage}!Truck@{Truck}}
+\subsubsection[{\texorpdfstring{get\+Stowage() const }{getStowage() const }}]{\setlength{\rightskip}{0pt plus 5cm}double Truck\+::get\+Stowage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_truck_a8e5df7632c01c338356682a6ea6536c0}{}\label{class_truck_a8e5df7632c01c338356682a6ea6536c0}
+
+
+Gets the volume occupied by the items. 
+
+\begin{DoxyReturn}{Returns}
+A double with the volume occupied by the items 
+\end{DoxyReturn}
+\index{Truck@{Truck}!get\+Truck\+Load@{get\+Truck\+Load}}
+\index{get\+Truck\+Load@{get\+Truck\+Load}!Truck@{Truck}}
+\subsubsection[{\texorpdfstring{get\+Truck\+Load() const }{getTruckLoad() const }}]{\setlength{\rightskip}{0pt plus 5cm}double Truck\+::get\+Truck\+Load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_truck_aef937769001a3468fc41ebb9df7e4871}{}\label{class_truck_aef937769001a3468fc41ebb9df7e4871}
+
+
+Gets the maximum volume that the truck supports. 
+
+\begin{DoxyReturn}{Returns}
+A double with the maximum volume that the truck supports 
+\end{DoxyReturn}
+\index{Truck@{Truck}!operator==@{operator==}}
+\index{operator==@{operator==}!Truck@{Truck}}
+\subsubsection[{\texorpdfstring{operator==(const Truck $\ast$t1)}{operator==(const Truck *t1)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Truck\+::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Truck} $\ast$}]{t1}
+\end{DoxyParamCaption}
+)}\hypertarget{class_truck_aed1f791c3c1520ec8b1c921038cf5459}{}\label{class_truck_aed1f791c3c1520ec8b1c921038cf5459}
+
+
+To check if a truck is equal to another truck. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t1} & the truck that we want to compare with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the truck we want to check is equal to the t1 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/\hyperlink{_truck_8h}{Truck.\+h}\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/Truck.\+cpp\end{DoxyCompactItemize}

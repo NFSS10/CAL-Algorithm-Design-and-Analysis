@@ -1,0 +1,5 @@
+Colocar os ficheiros nos devidos lugares e compilar.
+
+
+Caso o graphviewer não esteja a abrir, se existir erros de .dll ou o GraphViewer não abrir, em "GraphViewer.zip" esta o projeto do eclipse com o código do mesmo.
+(O Graph Viewer lê de "caminho.txt" e mostra o caminho processado gráficamente).

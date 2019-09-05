@@ -1,0 +1,634 @@
+﻿1;;False
+2;;False
+3;;False
+4;;False
+5;;False
+6;;False
+7;;False
+8;;False
+9;;False
+10;;False
+11;;False
+12;;False
+13;;False
+14;;False
+15;;False
+16;;False
+17;;False
+18;;False
+20;;False
+21;;False
+22;;False
+23;;False
+24;;False
+25;;False
+26;;False
+27;;False
+28;;False
+29;;False
+30;;False
+31;;False
+32;;False
+33;;False
+34;;False
+35;;False
+36;;False
+37;;False
+38;;False
+39;;False
+40;;False
+41;;False
+42;;False
+43;;False
+44;;False
+45;;False
+46;;False
+47;;False
+48;;False
+49;;False
+50;;False
+51;;False
+52;;False
+53;;False
+54;;False
+56;;False
+57;;False
+58;;False
+59;;False
+60;;False
+61;;False
+62;;False
+63;;False
+64;;False
+65;;False
+66;;False
+67;;False
+68;;False
+69;;False
+70;;False
+71;;False
+72;;False
+73;;False
+74;;False
+75;;False
+76;;False
+78;;False
+79;;False
+80;;False
+81;;False
+82;;False
+83;;False
+84;;False
+85;;False
+86;;False
+87;;False
+88;;False
+89;;False
+90;;False
+91;;False
+92;;False
+93;;False
+94;;False
+95;;False
+96;;False
+97;;False
+98;;False
+99;;False
+100;;False
+101;;False
+102;;True
+103;;True
+104;;True
+105;;True
+106;;True
+107;;True
+108;;True
+109;;True
+110;;True
+111;;True
+112;;True
+113;;True
+114;;True
+115;;True
+116;;True
+117;;True
+118;;True
+119;;True
+120;;True
+121;;True
+122;;True
+123;;True
+124;;True
+125;;True
+126;;True
+127;;True
+128;;True
+129;;True
+130;;True
+131;Estrada Nacional 106;True
+132;Estrada Nacional 106;True
+133;Estrada Nacional 106;True
+134;Estrada Nacional 106;True
+135;Estrada Nacional 106;True
+136;Estrada Nacional 106;True
+137;Estrada Nacional 106;True
+138;Estrada Nacional 106;True
+139;Estrada Nacional 106;True
+140;Estrada Nacional 106;True
+141;Estrada Nacional 106;True
+142;Estrada Nacional 106;True
+143;Estrada Nacional 106;True
+144;Estrada Nacional 106;True
+145;Estrada Nacional 106;True
+146;Estrada Nacional 106;True
+147;Estrada Nacional 106;True
+148;Estrada Nacional 106;True
+149;Estrada Nacional 106;True
+150;Estrada Nacional 106;True
+151;Estrada Nacional 106;True
+152;Estrada Nacional 106;True
+153;Estrada Nacional 106;True
+154;Estrada Nacional 106;True
+155;Estrada Nacional 106;True
+156;Estrada Nacional 106;True
+157;Estrada Nacional 106;True
+158;Estrada Nacional 106;True
+159;Estrada Nacional 106;True
+160;Estrada Nacional 106;True
+161;Estrada Nacional 106;True
+162;Estrada Nacional 106;True
+163;Estrada Nacional 106;True
+164;Estrada Nacional 106;True
+165;Estrada Nacional 106;True
+166;Estrada Nacional 106;True
+167;Estrada Nacional 106;True
+168;Estrada Nacional 106;True
+169;Estrada Nacional 106;True
+170;Estrada Nacional 106;True
+171;Estrada Nacional 106;True
+172;Estrada Nacional 106;True
+173;Estrada Nacional 106;True
+174;Estrada Nacional 106;True
+175;Estrada Nacional 106;True
+176;Estrada Nacional 106;True
+177;Estrada Nacional 106;True
+178;Estrada Nacional 106;True
+179;Estrada Nacional 106;True
+180;Estrada Nacional 106;True
+181;Estrada Nacional 106;True
+182;Estrada Nacional 106;True
+183;Estrada Nacional 106;True
+184;Estrada Nacional 106;True
+185;Estrada Nacional 106;True
+186;Estrada Nacional 106;True
+187;Estrada Nacional 106;True
+188;Estrada Nacional 106;True
+189;Estrada Nacional 106;True
+190;Estrada Nacional 106;True
+191;Estrada Nacional 106;True
+192;Estrada Nacional 106;True
+193;Estrada Nacional 106;True
+194;Estrada Nacional 106;True
+195;Estrada Nacional 106;True
+196;Estrada Nacional 106;True
+197;Estrada Nacional 106;True
+198;Estrada Nacional 106;True
+199;Estrada Nacional 106;True
+200;Estrada Nacional 106;True
+201;Estrada Nacional 106;True
+202;Estrada Nacional 106;True
+203;Estrada Nacional 106;True
+204;Estrada Nacional 106;True
+205;Estrada Nacional 106;True
+206;Estrada Nacional 106;True
+207;Estrada Nacional 106;True
+208;Estrada Nacional 106;True
+209;Estrada Nacional 106;True
+210;Estrada Nacional 106;True
+211;Estrada Nacional 106;True
+212;Estrada Nacional 106;True
+213;Estrada Nacional 106;True
+214;Estrada Nacional 106;True
+215;Estrada Nacional 106;True
+216;Estrada Nacional 106;True
+217;Estrada Nacional 106;True
+218;Estrada Nacional 106;True
+219;Estrada Nacional 106;True
+220;Estrada Nacional 106;True
+221;Estrada Nacional 106;True
+222;Estrada Nacional 106;True
+223;Estrada Nacional 106;True
+224;Estrada Nacional 106;True
+225;Estrada Nacional 106;True
+226;Estrada Nacional 106;True
+227;Estrada Nacional 106;True
+228;Estrada Nacional 106;True
+229;Estrada Nacional 106;True
+230;Estrada Nacional 106;True
+231;Estrada Nacional 106;True
+232;Estrada Nacional 106;True
+233;Estrada Nacional 106;True
+234;Estrada Nacional 106;True
+235;Estrada Nacional 106;True
+236;Estrada Nacional 106;True
+237;Estrada Nacional 106;True
+238;Estrada Nacional 106;True
+239;Estrada Nacional 106;True
+240;Estrada Nacional 106;True
+241;Estrada Nacional 106;True
+242;Estrada Nacional 106;True
+243;Estrada Nacional 106;True
+244;Estrada Nacional 106;True
+245;Estrada Nacional 106;True
+246;Estrada Nacional 106;True
+247;Estrada Nacional 106;True
+248;Estrada Nacional 106;True
+249;Estrada Nacional 106;True
+250;Estrada Nacional 106;True
+251;Estrada Nacional 106;True
+252;Estrada Nacional 106;True
+253;Estrada Nacional 106;True
+254;Estrada Nacional 106;True
+255;Estrada Nacional 106;True
+256;Estrada Nacional 106;True
+257;Estrada Nacional 106;True
+258;Estrada Nacional 106;True
+259;Estrada Nacional 106;True
+260;Estrada Nacional 106;True
+261;Estrada Nacional 106;True
+262;Estrada Nacional 106;True
+263;Estrada Nacional 106;True
+264;Estrada Nacional 106;True
+265;Estrada Nacional 106;True
+266;Estrada Nacional 106;True
+267;Estrada Nacional 106;True
+268;Estrada Nacional 106;True
+269;Estrada Nacional 106;True
+270;Estrada Nacional 106;True
+271;Estrada Nacional 106;True
+272;Estrada Nacional 106;True
+273;Estrada Nacional 106;True
+274;Estrada Nacional 106;True
+275;Estrada Nacional 106;True
+276;Estrada Nacional 106;True
+277;Estrada Nacional 106;True
+278;Estrada Nacional 106;True
+279;Estrada Nacional 106;True
+280;Estrada Nacional 106;True
+281;Estrada Nacional 106;True
+282;Estrada Nacional 106;True
+283;Estrada Nacional 106;True
+284;Estrada Nacional 106;True
+285;Estrada Nacional 106;True
+286;Estrada Nacional 106;True
+287;Estrada Nacional 106;True
+288;Estrada Nacional 106;True
+289;Estrada Nacional 106;True
+290;Estrada Nacional 106;True
+291;Estrada Nacional 106;True
+292;Estrada Nacional 106;True
+293;Estrada Nacional 106;True
+294;Estrada Nacional 106;True
+295;Estrada Nacional 106;True
+296;Estrada Nacional 106;True
+297;Estrada Nacional 106;True
+298;Estrada Nacional 106;True
+299;Estrada Nacional 106;True
+300;Estrada Nacional 106;True
+301;Estrada Nacional 106;True
+302;Estrada Nacional 106;True
+303;Estrada Nacional 106;True
+304;Estrada Nacional 106;True
+305;Estrada Nacional 106;True
+306;Estrada Nacional 106;True
+307;Estrada Nacional 106;True
+308;;True
+309;;True
+310;;True
+311;;True
+312;;True
+313;;True
+314;;True
+315;;True
+316;;True
+317;;True
+318;;True
+319;;True
+320;;True
+321;;True
+322;;True
+323;;True
+324;;True
+325;;True
+326;;True
+327;;True
+328;;True
+329;;True
+330;;True
+331;;True
+332;;True
+333;;True
+334;;True
+335;;True
+336;;True
+337;;True
+338;;True
+339;;True
+340;;True
+341;;True
+342;;True
+343;;True
+344;;True
+345;;True
+346;;True
+347;;True
+348;;True
+349;;True
+350;;True
+351;;True
+352;;True
+353;;True
+354;;True
+355;;True
+356;;True
+357;;True
+358;;True
+359;;True
+360;;True
+361;;True
+362;;True
+363;;True
+364;;True
+365;;True
+366;;True
+367;;True
+368;;True
+369;;True
+370;;True
+371;;True
+372;;True
+373;;True
+374;;True
+375;;True
+376;;True
+377;;True
+378;;True
+379;;True
+380;;True
+381;;True
+382;;True
+383;;True
+384;;True
+385;;True
+386;;True
+387;;True
+388;;True
+389;;True
+390;;True
+391;;True
+392;;True
+393;;True
+394;;True
+395;;True
+396;;True
+397;;True
+398;;True
+399;;True
+400;Rua de Avinhó;True
+401;Rua de Avinhó;True
+402;Rua de Avinhó;True
+403;Rua de Avinhó;True
+404;Rua de Avinhó;True
+405;Rua de Avinhó;True
+406;Rua de Avinhó;True
+407;Rua de Avinhó;True
+408;Rua de Avinhó;True
+409;Rua de Avinhó;True
+410;Rua de Avinhó;True
+411;Rua de Avinhó;True
+412;Rua de Avinhó;True
+413;Rua de Avinhó;True
+414;Rua de Avinhó;True
+415;Rua de Avinhó;True
+416;Rua de Avinhó;True
+417;Rua de Avinhó;True
+418;Rua de Avinhó;True
+419;Rua de Avinhó;True
+420;Rua de Avinhó;True
+421;Rua de Avinhó;True
+422;Rua de Avinhó;True
+423;Rua de Avinhó;True
+424;Rua de Avinhó;True
+425;Rua de Avinhó;True
+426;Rua de Avinhó;True
+427;Rua de Avinhó;True
+428;Rua de Avinhó;True
+429;Rua de Avinhó;True
+430;Rua de Avinhó;True
+431;Rua de Avinhó;True
+432;Rua de Avinhó;True
+433;Rua de Avinhó;True
+434;Rua de Avinhó;True
+435;Rua de Avinhó;True
+436;Rua de Avinhó;True
+437;Rua de Avinhó;True
+438;Rua de Avinhó;True
+439;Rua de Avinhó;True
+440;Rua de Avinhó;True
+441;Rua de Avinhó;True
+442;Rua de Avinhó;True
+443;;True
+444;;True
+445;;True
+446;;True
+447;;True
+448;;True
+449;;True
+450;;True
+451;;True
+452;;True
+453;;True
+454;;True
+455;;True
+456;;True
+457;;True
+458;;True
+459;;True
+460;;True
+461;;True
+462;;True
+463;;True
+464;;True
+465;;True
+466;;True
+467;;True
+468;;True
+469;;True
+470;;True
+471;;True
+472;;True
+473;;True
+474;;True
+475;;True
+476;;True
+477;;True
+478;;True
+479;;True
+480;;True
+481;;True
+482;;True
+483;;True
+484;;True
+485;;True
+486;;True
+487;;True
+488;;True
+489;;True
+490;;True
+491;;True
+492;;True
+493;;True
+494;;True
+495;;True
+496;;True
+497;;True
+498;;True
+499;;True
+500;;True
+501;;True
+502;;True
+503;;True
+504;;True
+505;;True
+506;;True
+507;;True
+508;;True
+509;;True
+510;;True
+511;;True
+512;;True
+513;;True
+514;;True
+515;;True
+516;;True
+517;;True
+518;;True
+519;;True
+520;;True
+521;;True
+522;;True
+523;;True
+524;;True
+525;;True
+526;;True
+527;;True
+528;;True
+529;;True
+530;;True
+531;;True
+532;;True
+533;;True
+534;;True
+535;;True
+536;;True
+537;;True
+538;;True
+539;;True
+540;;True
+541;;True
+542;;True
+543;;True
+544;;True
+545;;True
+546;;True
+547;;True
+548;;True
+549;;True
+550;;True
+551;;True
+552;;True
+553;;True
+554;;True
+555;;True
+556;;True
+557;;True
+558;;True
+559;;True
+560;;True
+561;;True
+562;;True
+563;;True
+564;;True
+565;;True
+566;;True
+567;;True
+568;;True
+569;;True
+570;;True
+571;;True
+572;;True
+573;;True
+574;;True
+575;;True
+576;;True
+577;;True
+578;;True
+579;;True
+580;;True
+581;;True
+582;;True
+583;;True
+584;;True
+585;;True
+586;;True
+587;;True
+588;;True
+589;;True
+590;;True
+591;;True
+592;;True
+593;;True
+594;;True
+595;;True
+596;;True
+597;;True
+598;;True
+599;;True
+600;;True
+601;;True
+602;;True
+603;;True
+604;;True
+605;;True
+606;;True
+607;;True
+608;;True
+609;;True
+610;;True
+611;;True
+612;;True
+613;;True
+614;;True
+615;;True
+616;;True
+617;;True
+618;;True
+619;;True
+620;;True
+621;;True
+622;;True
+623;;True
+624;;True
+625;;True
+626;;True
+627;;True
+628;;True
+629;;True
+630;;True
+631;;True
+632;;True
+633;;True
+634;;True
+635;;True
+636;;True
+637;;True

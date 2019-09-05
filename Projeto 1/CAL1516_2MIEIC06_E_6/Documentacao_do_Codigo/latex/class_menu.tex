@@ -1,0 +1,218 @@
+\hypertarget{class_menu}{}\section{Menu Class Reference}
+\label{class_menu}\index{Menu@{Menu}}
+
+
+The \hyperlink{class_menu}{Menu} class has the city database that we want to interact.  
+
+
+
+
+{\ttfamily \#include $<$Menu.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_menu_a0c728c22f1d050e456aed4f5b2252df2}{Menu} (\hyperlink{class_city}{City} $\ast$city)
+\begin{DoxyCompactList}\small\item\em Constructor of a \hyperlink{class_menu}{Menu} class. \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a3fadbc722c2aaf9a70ab50db01db756d}{add\+Items\+Destination} ()
+\begin{DoxyCompactList}\small\item\em Gets the id of the vertex destination of each item introduced by the user. \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_aad702865255b0b1850954d9c138367cd}{Load\+To\+Truck} ()
+\begin{DoxyCompactList}\small\item\em Adds the items to be distributed by the truck. \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a0be084d368b28760fbb4c5f68a44c84f}{Load\+To\+Trucks} ()
+\begin{DoxyCompactList}\small\item\em Adds the items to be distributed by the trucks. \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a0c0566079e6cd3f9de41fe654bb67079}{road\+Under\+Construction} ()
+\begin{DoxyCompactList}\small\item\em Removes a vertex to simulate a road under construction that the truck cannot pass. \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a901215b770515587e44cb387a6065d2c}{get\+Articulation\+Points} ()
+\begin{DoxyCompactList}\small\item\em Gets all the articulation points and show it. \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_a15c33d9ab2db186f5aa61c80be563af4}{start\+Aux\+Menu} ()
+\begin{DoxyCompactList}\small\item\em Starts the áuxiliary menu to interact with the city database. \end{DoxyCompactList}\item 
+void \hyperlink{class_menu_ae1ec62e738dda7faaaec850bd0b58ffe}{start} ()
+\begin{DoxyCompactList}\small\item\em Starts the main menu to interact with the city database. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{class_menu_ab6542699ffbe52c239990c23d46898e7}{input\+Choice} (int maximum\+Bound, int minimum\+Bound=1)
+\begin{DoxyCompactList}\small\item\em Used to get a numeric value between two bounds from user input. When the limite M\+A\+X\+\_\+\+A\+T\+T\+E\+M\+P\+TS is exceeded the function throws an exception. \end{DoxyCompactList}\item 
+static std\+::string \hyperlink{class_menu_a426e8d5602e594353dd6166411fc7af8}{get\+String} ()
+\begin{DoxyCompactList}\small\item\em Gets a string introduced by the user. \end{DoxyCompactList}\item 
+static int \hyperlink{class_menu_ac46c301e30d76ff87dd2dde9467252d2}{get\+Number} ()
+\begin{DoxyCompactList}\small\item\em Gets a integer introduced by the user. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_menu}{Menu} class has the city database that we want to interact. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Menu@{Menu}!Menu@{Menu}}
+\index{Menu@{Menu}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{Menu(\+City $\ast$city)}{Menu(City *city)}}]{\setlength{\rightskip}{0pt plus 5cm}Menu\+::\+Menu (
+\begin{DoxyParamCaption}
+\item[{{\bf City} $\ast$}]{city}
+\end{DoxyParamCaption}
+)}\hypertarget{class_menu_a0c728c22f1d050e456aed4f5b2252df2}{}\label{class_menu_a0c728c22f1d050e456aed4f5b2252df2}
+
+
+Constructor of a \hyperlink{class_menu}{Menu} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em city} & a \hyperlink{class_city}{City} that the user want to interact \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Menu@{Menu}!add\+Items\+Destination@{add\+Items\+Destination}}
+\index{add\+Items\+Destination@{add\+Items\+Destination}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{add\+Items\+Destination()}{addItemsDestination()}}]{\setlength{\rightskip}{0pt plus 5cm}void Menu\+::add\+Items\+Destination (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_menu_a3fadbc722c2aaf9a70ab50db01db756d}{}\label{class_menu_a3fadbc722c2aaf9a70ab50db01db756d}
+
+
+Gets the id of the vertex destination of each item introduced by the user. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Menu@{Menu}!get\+Articulation\+Points@{get\+Articulation\+Points}}
+\index{get\+Articulation\+Points@{get\+Articulation\+Points}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{get\+Articulation\+Points()}{getArticulationPoints()}}]{\setlength{\rightskip}{0pt plus 5cm}void Menu\+::get\+Articulation\+Points (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_menu_a901215b770515587e44cb387a6065d2c}{}\label{class_menu_a901215b770515587e44cb387a6065d2c}
+
+
+Gets all the articulation points and show it. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Menu@{Menu}!get\+Number@{get\+Number}}
+\index{get\+Number@{get\+Number}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{get\+Number()}{getNumber()}}]{\setlength{\rightskip}{0pt plus 5cm}int Menu\+::get\+Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_menu_ac46c301e30d76ff87dd2dde9467252d2}{}\label{class_menu_ac46c301e30d76ff87dd2dde9467252d2}
+
+
+Gets a integer introduced by the user. 
+
+\begin{DoxyReturn}{Returns}
+A integer with the input 
+\end{DoxyReturn}
+\index{Menu@{Menu}!get\+String@{get\+String}}
+\index{get\+String@{get\+String}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{get\+String()}{getString()}}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Menu\+::get\+String (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_menu_a426e8d5602e594353dd6166411fc7af8}{}\label{class_menu_a426e8d5602e594353dd6166411fc7af8}
+
+
+Gets a string introduced by the user. 
+
+\begin{DoxyReturn}{Returns}
+A string with the input 
+\end{DoxyReturn}
+\index{Menu@{Menu}!input\+Choice@{input\+Choice}}
+\index{input\+Choice@{input\+Choice}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{input\+Choice(int maximum\+Bound, int minimum\+Bound=1)}{inputChoice(int maximumBound, int minimumBound=1)}}]{\setlength{\rightskip}{0pt plus 5cm}int Menu\+::input\+Choice (
+\begin{DoxyParamCaption}
+\item[{int}]{maximum\+Bound, }
+\item[{int}]{minimum\+Bound = {\ttfamily 1}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{class_menu_ab6542699ffbe52c239990c23d46898e7}{}\label{class_menu_ab6542699ffbe52c239990c23d46898e7}
+
+
+Used to get a numeric value between two bounds from user input. When the limite M\+A\+X\+\_\+\+A\+T\+T\+E\+M\+P\+TS is exceeded the function throws an exception. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em maximum\+Bound} & is the max value of the bound \\
+\hline
+{\em minimum\+Bound} & is the min value of the bound \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+an integer between the min and the max bound 
+\end{DoxyReturn}
+\index{Menu@{Menu}!Load\+To\+Truck@{Load\+To\+Truck}}
+\index{Load\+To\+Truck@{Load\+To\+Truck}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{Load\+To\+Truck()}{LoadToTruck()}}]{\setlength{\rightskip}{0pt plus 5cm}void Menu\+::\+Load\+To\+Truck (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_menu_aad702865255b0b1850954d9c138367cd}{}\label{class_menu_aad702865255b0b1850954d9c138367cd}
+
+
+Adds the items to be distributed by the truck. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Menu@{Menu}!Load\+To\+Trucks@{Load\+To\+Trucks}}
+\index{Load\+To\+Trucks@{Load\+To\+Trucks}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{Load\+To\+Trucks()}{LoadToTrucks()}}]{\setlength{\rightskip}{0pt plus 5cm}void Menu\+::\+Load\+To\+Trucks (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_menu_a0be084d368b28760fbb4c5f68a44c84f}{}\label{class_menu_a0be084d368b28760fbb4c5f68a44c84f}
+
+
+Adds the items to be distributed by the trucks. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Menu@{Menu}!road\+Under\+Construction@{road\+Under\+Construction}}
+\index{road\+Under\+Construction@{road\+Under\+Construction}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{road\+Under\+Construction()}{roadUnderConstruction()}}]{\setlength{\rightskip}{0pt plus 5cm}void Menu\+::road\+Under\+Construction (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_menu_a0c0566079e6cd3f9de41fe654bb67079}{}\label{class_menu_a0c0566079e6cd3f9de41fe654bb67079}
+
+
+Removes a vertex to simulate a road under construction that the truck cannot pass. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Menu@{Menu}!start@{start}}
+\index{start@{start}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{start()}{start()}}]{\setlength{\rightskip}{0pt plus 5cm}void Menu\+::start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_menu_ae1ec62e738dda7faaaec850bd0b58ffe}{}\label{class_menu_ae1ec62e738dda7faaaec850bd0b58ffe}
+
+
+Starts the main menu to interact with the city database. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Menu@{Menu}!start\+Aux\+Menu@{start\+Aux\+Menu}}
+\index{start\+Aux\+Menu@{start\+Aux\+Menu}!Menu@{Menu}}
+\subsubsection[{\texorpdfstring{start\+Aux\+Menu()}{startAuxMenu()}}]{\setlength{\rightskip}{0pt plus 5cm}void Menu\+::start\+Aux\+Menu (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{class_menu_a15c33d9ab2db186f5aa61c80be563af4}{}\label{class_menu_a15c33d9ab2db186f5aa61c80be563af4}
+
+
+Starts the áuxiliary menu to interact with the city database. 
+
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/\hyperlink{_menu_8h}{Menu.\+h}\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/Menu.\+cpp\end{DoxyCompactItemize}

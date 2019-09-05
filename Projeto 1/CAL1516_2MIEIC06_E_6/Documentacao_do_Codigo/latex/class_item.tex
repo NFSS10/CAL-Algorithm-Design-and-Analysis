@@ -1,0 +1,244 @@
+\hypertarget{class_item}{}\section{Item Class Reference}
+\label{class_item}\index{Item@{Item}}
+
+
+The class \hyperlink{class_item}{Item} that has all the components of the item like his destination, volume, value bill number and the recipient name.  
+
+
+
+
+{\ttfamily \#include $<$Item.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_item_a8184b8c874e451812dd25a90d7ee2d93}{Item} (std\+::string recipient\+\_\+name, int destination, int bill\+Number, double value, double volume)
+\begin{DoxyCompactList}\small\item\em Constructor of the \hyperlink{class_item}{Item} class. \end{DoxyCompactList}\item 
+std\+::string \hyperlink{class_item_a1bab17828f1e194978b6f409cb72ebfc}{get\+Recipient\+Name} () const 
+\begin{DoxyCompactList}\small\item\em Gets the name of the recipient. \end{DoxyCompactList}\item 
+int \hyperlink{class_item_a3fc6e85c541f8447fbf4e58ef85b01f9}{get\+Destination} () const 
+\begin{DoxyCompactList}\small\item\em Gets the destination id of the vertex. \end{DoxyCompactList}\item 
+int \hyperlink{class_item_a1b107acd1943c433d6f510327428d04b}{get\+Bill\+Number} () const 
+\begin{DoxyCompactList}\small\item\em Gets the bill number of the item. \end{DoxyCompactList}\item 
+double \hyperlink{class_item_a7ff3b6e646fd7b0b12c4fdf6fb60842f}{get\+Value} () const 
+\begin{DoxyCompactList}\small\item\em Gets the value of the item. \end{DoxyCompactList}\item 
+double \hyperlink{class_item_a2012dd0ae00de321806cae8416bdc37f}{get\+Volume} () const 
+\begin{DoxyCompactList}\small\item\em Gets the volume of the item. \end{DoxyCompactList}\item 
+void \hyperlink{class_item_ae3a3b615d2ebe2c04821243a63c77b22}{set\+Value} (double value)
+\begin{DoxyCompactList}\small\item\em Changes the value of the item. \end{DoxyCompactList}\item 
+void \hyperlink{class_item_a9f164194fd32c5de2ce0623d0740ea66}{set\+Volume} (double volume)
+\begin{DoxyCompactList}\small\item\em Changes the volume of the item. \end{DoxyCompactList}\item 
+void \hyperlink{class_item_a9556d4bf2df33d1942dc633c2ab21cff}{set\+Destination} (int destination)
+\begin{DoxyCompactList}\small\item\em Changes the destination of the item. \end{DoxyCompactList}\item 
+bool \hyperlink{class_item_a76fd3eaebd2156838d4d592bb39e091d}{operator==} (\hyperlink{class_item}{Item} $\ast$t1)
+\begin{DoxyCompactList}\small\item\em To check if a item is equal to another item. \end{DoxyCompactList}\item 
+bool \hyperlink{class_item_a2666e8308cf52f4737e38bb3c7ab113f}{operator$<$} (\hyperlink{class_item}{Item} $\ast$t1)
+\begin{DoxyCompactList}\small\item\em To check if a item is smaller than another item. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The class \hyperlink{class_item}{Item} that has all the components of the item like his destination, volume, value bill number and the recipient name. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Item@{Item}!Item@{Item}}
+\index{Item@{Item}!Item@{Item}}
+\subsubsection[{\texorpdfstring{Item(std\+::string recipient\+\_\+name, int destination, int bill\+Number, double value, double volume)}{Item(std::string recipient_name, int destination, int billNumber, double value, double volume)}}]{\setlength{\rightskip}{0pt plus 5cm}Item\+::\+Item (
+\begin{DoxyParamCaption}
+\item[{std\+::string}]{recipient\+\_\+name, }
+\item[{int}]{destination, }
+\item[{int}]{bill\+Number, }
+\item[{double}]{value, }
+\item[{double}]{volume}
+\end{DoxyParamCaption}
+)}\hypertarget{class_item_a8184b8c874e451812dd25a90d7ee2d93}{}\label{class_item_a8184b8c874e451812dd25a90d7ee2d93}
+
+
+Constructor of the \hyperlink{class_item}{Item} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em recipient\+\_\+name} & name of the recipiente of the item \\
+\hline
+{\em destination} & id of the vertex of destination \\
+\hline
+{\em bill\+Number} & bill\+Number of the item \\
+\hline
+{\em value} & Value of the item \\
+\hline
+{\em volume} & Volume of the item \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Item@{Item}!get\+Bill\+Number@{get\+Bill\+Number}}
+\index{get\+Bill\+Number@{get\+Bill\+Number}!Item@{Item}}
+\subsubsection[{\texorpdfstring{get\+Bill\+Number() const }{getBillNumber() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Item\+::get\+Bill\+Number (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_item_a1b107acd1943c433d6f510327428d04b}{}\label{class_item_a1b107acd1943c433d6f510327428d04b}
+
+
+Gets the bill number of the item. 
+
+\begin{DoxyReturn}{Returns}
+A integer with the bill number 
+\end{DoxyReturn}
+\index{Item@{Item}!get\+Destination@{get\+Destination}}
+\index{get\+Destination@{get\+Destination}!Item@{Item}}
+\subsubsection[{\texorpdfstring{get\+Destination() const }{getDestination() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Item\+::get\+Destination (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_item_a3fc6e85c541f8447fbf4e58ef85b01f9}{}\label{class_item_a3fc6e85c541f8447fbf4e58ef85b01f9}
+
+
+Gets the destination id of the vertex. 
+
+\begin{DoxyReturn}{Returns}
+A integer with the destination 
+\end{DoxyReturn}
+\index{Item@{Item}!get\+Recipient\+Name@{get\+Recipient\+Name}}
+\index{get\+Recipient\+Name@{get\+Recipient\+Name}!Item@{Item}}
+\subsubsection[{\texorpdfstring{get\+Recipient\+Name() const }{getRecipientName() const }}]{\setlength{\rightskip}{0pt plus 5cm}std\+::string Item\+::get\+Recipient\+Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_item_a1bab17828f1e194978b6f409cb72ebfc}{}\label{class_item_a1bab17828f1e194978b6f409cb72ebfc}
+
+
+Gets the name of the recipient. 
+
+\begin{DoxyReturn}{Returns}
+A string with the name of the recipient 
+\end{DoxyReturn}
+\index{Item@{Item}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!Item@{Item}}
+\subsubsection[{\texorpdfstring{get\+Value() const }{getValue() const }}]{\setlength{\rightskip}{0pt plus 5cm}double Item\+::get\+Value (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_item_a7ff3b6e646fd7b0b12c4fdf6fb60842f}{}\label{class_item_a7ff3b6e646fd7b0b12c4fdf6fb60842f}
+
+
+Gets the value of the item. 
+
+\begin{DoxyReturn}{Returns}
+A double with the value 
+\end{DoxyReturn}
+\index{Item@{Item}!get\+Volume@{get\+Volume}}
+\index{get\+Volume@{get\+Volume}!Item@{Item}}
+\subsubsection[{\texorpdfstring{get\+Volume() const }{getVolume() const }}]{\setlength{\rightskip}{0pt plus 5cm}double Item\+::get\+Volume (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_item_a2012dd0ae00de321806cae8416bdc37f}{}\label{class_item_a2012dd0ae00de321806cae8416bdc37f}
+
+
+Gets the volume of the item. 
+
+\begin{DoxyReturn}{Returns}
+A double with the volume 
+\end{DoxyReturn}
+\index{Item@{Item}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Item@{Item}}
+\subsubsection[{\texorpdfstring{operator$<$(\+Item $\ast$t1)}{operator<(Item *t1)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Item\+::operator$<$ (
+\begin{DoxyParamCaption}
+\item[{{\bf Item} $\ast$}]{t1}
+\end{DoxyParamCaption}
+)}\hypertarget{class_item_a2666e8308cf52f4737e38bb3c7ab113f}{}\label{class_item_a2666e8308cf52f4737e38bb3c7ab113f}
+
+
+To check if a item is smaller than another item. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t1} & the item that we want to compare with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the item we want to check is smaller then t1 
+\end{DoxyReturn}
+\index{Item@{Item}!operator==@{operator==}}
+\index{operator==@{operator==}!Item@{Item}}
+\subsubsection[{\texorpdfstring{operator==(\+Item $\ast$t1)}{operator==(Item *t1)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Item\+::operator== (
+\begin{DoxyParamCaption}
+\item[{{\bf Item} $\ast$}]{t1}
+\end{DoxyParamCaption}
+)}\hypertarget{class_item_a76fd3eaebd2156838d4d592bb39e091d}{}\label{class_item_a76fd3eaebd2156838d4d592bb39e091d}
+
+
+To check if a item is equal to another item. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em t1} & the item that we want to compare with \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the item we want to check is equal to the t1 
+\end{DoxyReturn}
+\index{Item@{Item}!set\+Destination@{set\+Destination}}
+\index{set\+Destination@{set\+Destination}!Item@{Item}}
+\subsubsection[{\texorpdfstring{set\+Destination(int destination)}{setDestination(int destination)}}]{\setlength{\rightskip}{0pt plus 5cm}void Item\+::set\+Destination (
+\begin{DoxyParamCaption}
+\item[{int}]{destination}
+\end{DoxyParamCaption}
+)}\hypertarget{class_item_a9556d4bf2df33d1942dc633c2ab21cff}{}\label{class_item_a9556d4bf2df33d1942dc633c2ab21cff}
+
+
+Changes the destination of the item. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em destination} & a integer with the update destination \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Item@{Item}!set\+Value@{set\+Value}}
+\index{set\+Value@{set\+Value}!Item@{Item}}
+\subsubsection[{\texorpdfstring{set\+Value(double value)}{setValue(double value)}}]{\setlength{\rightskip}{0pt plus 5cm}void Item\+::set\+Value (
+\begin{DoxyParamCaption}
+\item[{double}]{value}
+\end{DoxyParamCaption}
+)}\hypertarget{class_item_ae3a3b615d2ebe2c04821243a63c77b22}{}\label{class_item_ae3a3b615d2ebe2c04821243a63c77b22}
+
+
+Changes the value of the item. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value} & a double with the update value \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Item@{Item}!set\+Volume@{set\+Volume}}
+\index{set\+Volume@{set\+Volume}!Item@{Item}}
+\subsubsection[{\texorpdfstring{set\+Volume(double volume)}{setVolume(double volume)}}]{\setlength{\rightskip}{0pt plus 5cm}void Item\+::set\+Volume (
+\begin{DoxyParamCaption}
+\item[{double}]{volume}
+\end{DoxyParamCaption}
+)}\hypertarget{class_item_a9f164194fd32c5de2ce0623d0740ea66}{}\label{class_item_a9f164194fd32c5de2ce0623d0740ea66}
+
+
+Changes the volume of the item. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em volume} & a double with the update volume \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/\hyperlink{_item_8h}{Item.\+h}\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/Item.\+cpp\end{DoxyCompactItemize}

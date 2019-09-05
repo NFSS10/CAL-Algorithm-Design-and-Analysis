@@ -1,0 +1,94 @@
+\hypertarget{class_graph}{}\section{Graph$<$ T $>$ Class Template Reference}
+\label{class_graph}\index{Graph$<$ T $>$@{Graph$<$ T $>$}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool {\bfseries add\+Vertex} (const T \&in, double latitude, double longitude)\hypertarget{class_graph_a3888c206f0c079105a39bb7beacae340}{}\label{class_graph_a3888c206f0c079105a39bb7beacae340}
+
+\item 
+bool {\bfseries add\+Edge} (const T \&sourc, const T \&dest, int id, double w=0)\hypertarget{class_graph_a7b625cd111adc1c08b909cc5330f5c6a}{}\label{class_graph_a7b625cd111adc1c08b909cc5330f5c6a}
+
+\item 
+bool {\bfseries remove\+Vertex} (const T \&in)\hypertarget{class_graph_af9c903104ad69a7782979fa9caedf163}{}\label{class_graph_af9c903104ad69a7782979fa9caedf163}
+
+\item 
+bool {\bfseries remove\+Edge} (const T \&sourc, const T \&dest)\hypertarget{class_graph_a1106092a37366486cf55576f9ec01692}{}\label{class_graph_a1106092a37366486cf55576f9ec01692}
+
+\item 
+vector$<$ T $>$ {\bfseries dfs} () const \hypertarget{class_graph_a3f62ba0e37c5c011299c93d60e3a8be3}{}\label{class_graph_a3f62ba0e37c5c011299c93d60e3a8be3}
+
+\item 
+vector$<$ T $>$ {\bfseries bfs} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$v) const \hypertarget{class_graph_a0e9598b98be2570eb432690411a577e8}{}\label{class_graph_a0e9598b98be2570eb432690411a577e8}
+
+\item 
+int {\bfseries max\+New\+Children} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$v, T \&inf) const \hypertarget{class_graph_ab8fd74c3cf8dca6eaa82d39fd1216f52}{}\label{class_graph_ab8fd74c3cf8dca6eaa82d39fd1216f52}
+
+\item 
+vector$<$ \hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$ $>$ {\bfseries get\+Vertex\+Set} () const \hypertarget{class_graph_ab7dc5ec1c34df811d560021b726e95ec}{}\label{class_graph_ab7dc5ec1c34df811d560021b726e95ec}
+
+\item 
+int {\bfseries get\+Num\+Vertex} () const \hypertarget{class_graph_a295932f117d92c825a97ec458e0fb332}{}\label{class_graph_a295932f117d92c825a97ec458e0fb332}
+
+\item 
+bool {\bfseries vertex\+Exists} (const T info)\hypertarget{class_graph_ad1513a6b15b11cfcb02d8c7983df69c9}{}\label{class_graph_ad1513a6b15b11cfcb02d8c7983df69c9}
+
+\item 
+\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$ {\bfseries get\+Vertex} (const T \&v) const \hypertarget{class_graph_a08a95472b0d9bd7321660940807af060}{}\label{class_graph_a08a95472b0d9bd7321660940807af060}
+
+\item 
+int {\bfseries get\+Vertex\+Index} (const T \&v) const \hypertarget{class_graph_a98ad6f08d48ceb7527cb37433c0efc56}{}\label{class_graph_a98ad6f08d48ceb7527cb37433c0efc56}
+
+\item 
+double $\ast$$\ast$ {\bfseries getW} () const \hypertarget{class_graph_a8ff69d58c6c11dc849659999c7d7ef29}{}\label{class_graph_a8ff69d58c6c11dc849659999c7d7ef29}
+
+\item 
+double $\ast$$\ast$ {\bfseries getP} () const \hypertarget{class_graph_a6d4d0350cec9be5e776d6509208f94ee}{}\label{class_graph_a6d4d0350cec9be5e776d6509208f94ee}
+
+\item 
+void {\bfseries reset\+Indegrees} ()\hypertarget{class_graph_af34eb86d804272e6e3e221a9ed688c53}{}\label{class_graph_af34eb86d804272e6e3e221a9ed688c53}
+
+\item 
+vector$<$ \hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$ $>$ {\bfseries get\+Sources} () const \hypertarget{class_graph_aa1a3c754f51a888e25dff2b26dfb85fc}{}\label{class_graph_aa1a3c754f51a888e25dff2b26dfb85fc}
+
+\item 
+int {\bfseries get\+Num\+Cycles} ()\hypertarget{class_graph_a694dff81073c38b669057f0c6bd4cbb1}{}\label{class_graph_a694dff81073c38b669057f0c6bd4cbb1}
+
+\item 
+vector$<$ T $>$ {\bfseries topological\+Order} ()\hypertarget{class_graph_a2e75512c089c3916dda9cf61e1185d9d}{}\label{class_graph_a2e75512c089c3916dda9cf61e1185d9d}
+
+\item 
+vector$<$ T $>$ {\bfseries get\+Path} (const T \&origin, const T \&dest)\hypertarget{class_graph_ab4054ca572c10669dd3e05d6d41c116c}{}\label{class_graph_ab4054ca572c10669dd3e05d6d41c116c}
+
+\item 
+void {\bfseries unweighted\+Shortest\+Path} (const T \&v)\hypertarget{class_graph_ae5264597aacaf4f45819e96a6d6c89aa}{}\label{class_graph_ae5264597aacaf4f45819e96a6d6c89aa}
+
+\item 
+bool {\bfseries is\+D\+AG} ()\hypertarget{class_graph_ab49d07c2bd6b8b30d5ae82bc558b821a}{}\label{class_graph_ab49d07c2bd6b8b30d5ae82bc558b821a}
+
+\item 
+void {\bfseries Show\+Vertex\+ID} ()\hypertarget{class_graph_aa398a8934013c6ed8fd97dfdd518bc89}{}\label{class_graph_aa398a8934013c6ed8fd97dfdd518bc89}
+
+\item 
+void {\bfseries reset\+Visited} ()\hypertarget{class_graph_ada2ab6b203763588b7f9a8e7ad8a2102}{}\label{class_graph_ada2ab6b203763588b7f9a8e7ad8a2102}
+
+\item 
+void {\bfseries find\+Art} (\hyperlink{class_vertex}{Vertex}$<$ T $>$ $\ast$v)\hypertarget{class_graph_a449ab830459e22404c2b939e51df3cde}{}\label{class_graph_a449ab830459e22404c2b939e51df3cde}
+
+\item 
+void {\bfseries floyd\+Warshall\+Shortest\+Path} ()\hypertarget{class_graph_ae5161f4408bf1ead2b29d19d67fb04ee}{}\label{class_graph_ae5161f4408bf1ead2b29d19d67fb04ee}
+
+\item 
+double {\bfseries edge\+Cost} (int v\+Orig\+Index, int v\+Dest\+Index)\hypertarget{class_graph_a15916acb538dbab24c24a13fd4d5d29d}{}\label{class_graph_a15916acb538dbab24c24a13fd4d5d29d}
+
+\item 
+vector$<$ T $>$ {\bfseries getfloyd\+Warshall\+Path} (const T \&origin, const T \&dest)\hypertarget{class_graph_ab23d1dae92a7f2b29dcb91a94336674c}{}\label{class_graph_ab23d1dae92a7f2b29dcb91a94336674c}
+
+\item 
+void {\bfseries getfloyd\+Warshall\+Path\+Aux} (int index1, int index2, vector$<$ T $>$ \&res)\hypertarget{class_graph_aad1eda4beb8425d03ed1f3b8af397563}{}\label{class_graph_aad1eda4beb8425d03ed1f3b8af397563}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/Graph.\+h\end{DoxyCompactItemize}

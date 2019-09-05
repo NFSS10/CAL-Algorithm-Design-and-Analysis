@@ -1,0 +1,230 @@
+\hypertarget{class_company}{}\section{Company Class Reference}
+\label{class_company}\index{Company@{Company}}
+
+
+The \hyperlink{class_company}{Company} class has a vertex id of the deposit, garage, has the items that need to be delivered and the trucks.  
+
+
+
+
+{\ttfamily \#include $<$Company.\+h$>$}
+
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{class_company_1_1_equal_garage_deposit_location}{Equal\+Garage\+Deposit\+Location}
+\begin{DoxyCompactList}\small\item\em The class \hyperlink{class_company_1_1_equal_garage_deposit_location}{Equal\+Garage\+Deposit\+Location} is used when the user inputs the same garage and deposit location. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_company_a6d8fd907cbf1719460a8be113b6530ab}{Company} (int deposit, int garage)
+\begin{DoxyCompactList}\small\item\em Constructor of a \hyperlink{class_company}{Company} class. \end{DoxyCompactList}\item 
+\hyperlink{class_company_a29937dda711b09df306ae7ca9b3d6b42}{Company} ()\hypertarget{class_company_a29937dda711b09df306ae7ca9b3d6b42}{}\label{class_company_a29937dda711b09df306ae7ca9b3d6b42}
+
+\begin{DoxyCompactList}\small\item\em Default constructor of a \hyperlink{class_company}{Company} class. \end{DoxyCompactList}\item 
+int \hyperlink{class_company_a16cce0b5b7575af50cb832f02e8d9610}{get\+Deposit} () const 
+\begin{DoxyCompactList}\small\item\em Gets the vertex id of the deposit of the company. \end{DoxyCompactList}\item 
+int \hyperlink{class_company_ad9a4b50a02c2393d7183538a3625c689}{get\+Garage} () const 
+\begin{DoxyCompactList}\small\item\em Gets the vertex id of the garage of the company. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{class_truck}{Truck} $\ast$ $>$ \hyperlink{class_company_ae041249dd6f97bf132bca19cab1e9bee}{get\+Vehicle\+Fleet} () const 
+\begin{DoxyCompactList}\small\item\em Gets all the trucks of the company. \end{DoxyCompactList}\item 
+std\+::vector$<$ \hyperlink{class_item}{Item} $\ast$ $>$ \hyperlink{class_company_a34f53f65917de6231eb27f3e1ccfad42}{get\+All\+Items} () const 
+\begin{DoxyCompactList}\small\item\em Gets all the items to be delivered. \end{DoxyCompactList}\item 
+void \hyperlink{class_company_a7d51c3ae198007427b241b2b5996161b}{set\+Deposit} (int location)
+\begin{DoxyCompactList}\small\item\em Changes the vertex id of the deposit. \end{DoxyCompactList}\item 
+void \hyperlink{class_company_a489c10753fdc44814a2a384854d05fb7}{set\+Garage} (int location)
+\begin{DoxyCompactList}\small\item\em Changes the vertex id of the garage. \end{DoxyCompactList}\item 
+void \hyperlink{class_company_affa2ba9f37fcac265568b06dbef8d065}{add\+Item\+To\+Deposit} (\hyperlink{class_item}{Item} $\ast$di)
+\begin{DoxyCompactList}\small\item\em Adds a new item to be delivered by the company. \end{DoxyCompactList}\item 
+void \hyperlink{class_company_a422322f563043630557811aa81adcd56}{add\+Truck} (\hyperlink{class_truck}{Truck} $\ast$truck)
+\begin{DoxyCompactList}\small\item\em Adds a new truck to the company. \end{DoxyCompactList}\item 
+bool \hyperlink{class_company_ace189f6ffc7fc1dd78f8e0e47e9ce80a}{load\+Truck} (\hyperlink{class_item}{Item} $\ast$di, \hyperlink{class_truck}{Truck} $\ast$truck)
+\begin{DoxyCompactList}\small\item\em Finds an item in the deposit and put it into the truck. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{class_company}{Company} class has a vertex id of the deposit, garage, has the items that need to be delivered and the trucks. 
+
+\subsection{Constructor \& Destructor Documentation}
+\index{Company@{Company}!Company@{Company}}
+\index{Company@{Company}!Company@{Company}}
+\subsubsection[{\texorpdfstring{Company(int deposit, int garage)}{Company(int deposit, int garage)}}]{\setlength{\rightskip}{0pt plus 5cm}Company\+::\+Company (
+\begin{DoxyParamCaption}
+\item[{int}]{deposit, }
+\item[{int}]{garage}
+\end{DoxyParamCaption}
+)}\hypertarget{class_company_a6d8fd907cbf1719460a8be113b6530ab}{}\label{class_company_a6d8fd907cbf1719460a8be113b6530ab}
+
+
+Constructor of a \hyperlink{class_company}{Company} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em deposit} & The vertex id of the deposit \\
+\hline
+{\em map} & The vertex id of the garage \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{Company@{Company}!add\+Item\+To\+Deposit@{add\+Item\+To\+Deposit}}
+\index{add\+Item\+To\+Deposit@{add\+Item\+To\+Deposit}!Company@{Company}}
+\subsubsection[{\texorpdfstring{add\+Item\+To\+Deposit(\+Item $\ast$di)}{addItemToDeposit(Item *di)}}]{\setlength{\rightskip}{0pt plus 5cm}void Company\+::add\+Item\+To\+Deposit (
+\begin{DoxyParamCaption}
+\item[{{\bf Item} $\ast$}]{di}
+\end{DoxyParamCaption}
+)}\hypertarget{class_company_affa2ba9f37fcac265568b06dbef8d065}{}\label{class_company_affa2ba9f37fcac265568b06dbef8d065}
+
+
+Adds a new item to be delivered by the company. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em di} & The item to be delivered \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Company@{Company}!add\+Truck@{add\+Truck}}
+\index{add\+Truck@{add\+Truck}!Company@{Company}}
+\subsubsection[{\texorpdfstring{add\+Truck(\+Truck $\ast$truck)}{addTruck(Truck *truck)}}]{\setlength{\rightskip}{0pt plus 5cm}void Company\+::add\+Truck (
+\begin{DoxyParamCaption}
+\item[{{\bf Truck} $\ast$}]{truck}
+\end{DoxyParamCaption}
+)}\hypertarget{class_company_a422322f563043630557811aa81adcd56}{}\label{class_company_a422322f563043630557811aa81adcd56}
+
+
+Adds a new truck to the company. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em truck} & The new truck for the company\textquotesingle{}s fleet \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Company@{Company}!get\+All\+Items@{get\+All\+Items}}
+\index{get\+All\+Items@{get\+All\+Items}!Company@{Company}}
+\subsubsection[{\texorpdfstring{get\+All\+Items() const }{getAllItems() const }}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ {\bf Item} $\ast$ $>$ Company\+::get\+All\+Items (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_company_a34f53f65917de6231eb27f3e1ccfad42}{}\label{class_company_a34f53f65917de6231eb27f3e1ccfad42}
+
+
+Gets all the items to be delivered. 
+
+\begin{DoxyReturn}{Returns}
+A vector with all the items that are not in transity yet 
+\end{DoxyReturn}
+\index{Company@{Company}!get\+Deposit@{get\+Deposit}}
+\index{get\+Deposit@{get\+Deposit}!Company@{Company}}
+\subsubsection[{\texorpdfstring{get\+Deposit() const }{getDeposit() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Company\+::get\+Deposit (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_company_a16cce0b5b7575af50cb832f02e8d9610}{}\label{class_company_a16cce0b5b7575af50cb832f02e8d9610}
+
+
+Gets the vertex id of the deposit of the company. 
+
+\begin{DoxyReturn}{Returns}
+A integer with the vertex id of the deposit 
+\end{DoxyReturn}
+\index{Company@{Company}!get\+Garage@{get\+Garage}}
+\index{get\+Garage@{get\+Garage}!Company@{Company}}
+\subsubsection[{\texorpdfstring{get\+Garage() const }{getGarage() const }}]{\setlength{\rightskip}{0pt plus 5cm}int Company\+::get\+Garage (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_company_ad9a4b50a02c2393d7183538a3625c689}{}\label{class_company_ad9a4b50a02c2393d7183538a3625c689}
+
+
+Gets the vertex id of the garage of the company. 
+
+\begin{DoxyReturn}{Returns}
+A integer with the vertex id of the garage 
+\end{DoxyReturn}
+\index{Company@{Company}!get\+Vehicle\+Fleet@{get\+Vehicle\+Fleet}}
+\index{get\+Vehicle\+Fleet@{get\+Vehicle\+Fleet}!Company@{Company}}
+\subsubsection[{\texorpdfstring{get\+Vehicle\+Fleet() const }{getVehicleFleet() const }}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$ {\bf Truck} $\ast$ $>$ Company\+::get\+Vehicle\+Fleet (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const}\hypertarget{class_company_ae041249dd6f97bf132bca19cab1e9bee}{}\label{class_company_ae041249dd6f97bf132bca19cab1e9bee}
+
+
+Gets all the trucks of the company. 
+
+\begin{DoxyReturn}{Returns}
+A vector with all the trucks of the company 
+\end{DoxyReturn}
+\index{Company@{Company}!load\+Truck@{load\+Truck}}
+\index{load\+Truck@{load\+Truck}!Company@{Company}}
+\subsubsection[{\texorpdfstring{load\+Truck(\+Item $\ast$di, Truck $\ast$truck)}{loadTruck(Item *di, Truck *truck)}}]{\setlength{\rightskip}{0pt plus 5cm}bool Company\+::load\+Truck (
+\begin{DoxyParamCaption}
+\item[{{\bf Item} $\ast$}]{di, }
+\item[{{\bf Truck} $\ast$}]{truck}
+\end{DoxyParamCaption}
+)}\hypertarget{class_company_ace189f6ffc7fc1dd78f8e0e47e9ce80a}{}\label{class_company_ace189f6ffc7fc1dd78f8e0e47e9ce80a}
+
+
+Finds an item in the deposit and put it into the truck. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em di} & The item that is to be delivered \\
+\hline
+{\em truck} & The truck responsible for the delivery \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the item exists, false otherwise 
+\end{DoxyReturn}
+\index{Company@{Company}!set\+Deposit@{set\+Deposit}}
+\index{set\+Deposit@{set\+Deposit}!Company@{Company}}
+\subsubsection[{\texorpdfstring{set\+Deposit(int location)}{setDeposit(int location)}}]{\setlength{\rightskip}{0pt plus 5cm}void Company\+::set\+Deposit (
+\begin{DoxyParamCaption}
+\item[{int}]{location}
+\end{DoxyParamCaption}
+)}\hypertarget{class_company_a7d51c3ae198007427b241b2b5996161b}{}\label{class_company_a7d51c3ae198007427b241b2b5996161b}
+
+
+Changes the vertex id of the deposit. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & a integer of the new location of the deposit \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+\index{Company@{Company}!set\+Garage@{set\+Garage}}
+\index{set\+Garage@{set\+Garage}!Company@{Company}}
+\subsubsection[{\texorpdfstring{set\+Garage(int location)}{setGarage(int location)}}]{\setlength{\rightskip}{0pt plus 5cm}void Company\+::set\+Garage (
+\begin{DoxyParamCaption}
+\item[{int}]{location}
+\end{DoxyParamCaption}
+)}\hypertarget{class_company_a489c10753fdc44814a2a384854d05fb7}{}\label{class_company_a489c10753fdc44814a2a384854d05fb7}
+
+
+Changes the vertex id of the garage. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em location} & a integer of the new location of the garage \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/\hyperlink{_company_8h}{Company.\+h}\item 
+C\+:/\+Users/\+Jorge/\+Documents/\+Visual Studio 2015/\+Projects/mercadorias/mercadorias/Company.\+cpp\end{DoxyCompactItemize}

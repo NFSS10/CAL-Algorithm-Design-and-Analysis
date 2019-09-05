@@ -1,0 +1,23 @@
+var searchData=
+[
+  ['getallitems',['getAllItems',['../class_company.html#a34f53f65917de6231eb27f3e1ccfad42',1,'Company']]],
+  ['getarticulationpoints',['getArticulationPoints',['../class_menu.html#a901215b770515587e44cb387a6065d2c',1,'Menu']]],
+  ['getbillnumber',['getBillNumber',['../class_item.html#a1b107acd1943c433d6f510327428d04b',1,'Item']]],
+  ['getcompany',['getCompany',['../class_city.html#a9f98c84945631205f016710d7e2a4920',1,'City']]],
+  ['getdeposit',['getDeposit',['../class_company.html#a16cce0b5b7575af50cb832f02e8d9610',1,'Company']]],
+  ['getdestination',['getDestination',['../class_item.html#a3fc6e85c541f8447fbf4e58ef85b01f9',1,'Item']]],
+  ['geterror',['getError',['../class_company_1_1_equal_garage_deposit_location.html#a85ad4b905cb216c9cdc5df006467145a',1,'Company::EqualGarageDepositLocation']]],
+  ['getgarage',['getGarage',['../class_company.html#ad9a4b50a02c2393d7183538a3625c689',1,'Company']]],
+  ['getitemstodistribute',['getItemsToDistribute',['../class_truck.html#ac8a4138c1c38d0eebfba9c9a58df7341',1,'Truck']]],
+  ['getmap',['getMap',['../class_city.html#a8f3f47c5bd299d98a3265f824472b86d',1,'City']]],
+  ['getname',['getName',['../class_city.html#adc7fe5313b3572973918cf6385e87fd5',1,'City']]],
+  ['getnumber',['getNumber',['../class_menu.html#ac46c301e30d76ff87dd2dde9467252d2',1,'Menu']]],
+  ['getreason',['getReason',['../class_load_file_exception.html#ad2bf5874a588870bff51b20dd9c9c425',1,'LoadFileException::getReason()'],['../class_attempt_limit_exceeded.html#afe5d477bcdf5a7c0c606c466c770a1d4',1,'AttemptLimitExceeded::getReason()']]],
+  ['getrecipientname',['getRecipientName',['../class_item.html#a1bab17828f1e194978b6f409cb72ebfc',1,'Item']]],
+  ['getstowage',['getStowage',['../class_truck.html#a8e5df7632c01c338356682a6ea6536c0',1,'Truck']]],
+  ['getstring',['getString',['../class_menu.html#a426e8d5602e594353dd6166411fc7af8',1,'Menu']]],
+  ['gettruckload',['getTruckLoad',['../class_truck.html#aef937769001a3468fc41ebb9df7e4871',1,'Truck']]],
+  ['getvalue',['getValue',['../class_item.html#a7ff3b6e646fd7b0b12c4fdf6fb60842f',1,'Item']]],
+  ['getvehiclefleet',['getVehicleFleet',['../class_company.html#ae041249dd6f97bf132bca19cab1e9bee',1,'Company']]],
+  ['getvolume',['getVolume',['../class_item.html#a2012dd0ae00de321806cae8416bdc37f',1,'Item']]]
+];
