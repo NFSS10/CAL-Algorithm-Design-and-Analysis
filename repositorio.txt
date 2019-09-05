@@ -1,0 +1,4 @@
+A parte prática foram dois projetos, sendo o segundo projeto complemento do primeiro projeto.
+
+Logo o repositório usado foi o mesmo:
+https://bitbucket.org/oslegos/transportedemercadorias/src/master/
